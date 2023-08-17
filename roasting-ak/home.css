@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: #777;
+}
+.main-header{
+    background-image: url(Spider-Man-background01.jpg);
+    background-size: cover;
+    background-color: rgb(223, 98, 98);
+    background-blend-mode: multiply;
+    padding-bottom: 45px;
+    border-radius: 10px;
+}
+.main-nav ul {
+    margin: 0;
+    
+}
+html , body {
+    margin: 0;
+}
+.main-nav li{
+    display: inline;
+    
+}
+.main-nav a{
+    padding: 0.5em;
+    color: rgb(58, 31, 28);
+    text-decoration: none;
+    display: inline-block;
+
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.main-nav a:hover {
+    background-color: rgb(206, 206, 230);
+    border-radius: 15px;
+    mix-blend-mode: color-burn;
+}
+.idk{
+    background-color: #1f1f24;
+}
+.name{
+    text-align: center;
+    margin: 10;
+    color: rgb(214, 210, 210);
+    font-size: 3em;
+    font-family: 'Boogaloo', cursive;
+    word-spacing: 2%;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.half{
+    background-image: url(Spider-Man-background02.jpg);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.peter{
+    color: rgb(168, 166, 32);
+}
+.spiderman-link{
+    text-decoration: none;
+    padding: 7px  4px;
+    font-weight: 70;
+    border-radius: 5px;
+    background-color: rgba(206, 16, 16, 0.808);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+.half a:hover{
+    background-color: rgb(235, 2, 2);
+    border-radius: 5px;
+    mix-blend-mode:lighten;
+}
