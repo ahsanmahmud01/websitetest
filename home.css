@@ -101,3 +101,15 @@ mix-blend-mode: hue;
     animation-delay: 1.5s;
     transition-duration: 1.75s;
 }
+.home-welcome{
+    background-size: 5em;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bolder;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 1.1em;
+    display: contents;
+}
